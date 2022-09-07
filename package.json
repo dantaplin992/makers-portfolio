@@ -1,0 +1,23 @@
+{
+  "name": "makers-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dantaplin992/makers-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dantaplin992/makers-portfolio/issues"
+  },
+  "homepage": "https://github.com/dantaplin992/makers-portfolio#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
