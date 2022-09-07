@@ -1,16 +1,59 @@
 body {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p, ul {
+  font-size: 14;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  text-align: left !important;
+}
+
+#agile-table {
+  font-size: 14;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  text-align: center !important;
+  border: 1px solid rgba(41, 41, 41, 0.15)
+}
+
+td {
+  width: 50%;
 }
 
 .page-content {
-  background-color: whitesmoke;
-  text-align: center;
+  background-color: rgb(245, 245, 245);
+  text-align: left;
   width: 100%;
+  padding-bottom: 1rem;
 }
 
 .page-section {
   width: 80%;
   margin: 0 auto;
   background-color: white;
-  border-radius: 8px;
+  box-shadow: 0px 0px 16px 7px rgba(193, 193, 193, 0.15);
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.section-title {
+  width: 80%;
+  margin: 0 auto;
+  border-bottom: 1px rgb(114, 114, 114);
+}
+
+.subtitle {
+  width: 80%;
+  margin: 0 auto;
+  color: rgb(138, 138, 138);
+}
+
+.page-title {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center !important;
 }
