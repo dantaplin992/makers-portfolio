@@ -3,14 +3,14 @@ body {
 }
 
 .page-content {
-  background-color: rgb(226, 226, 226);
+  background-color: whitesmoke;
   text-align: center;
   width: 100%;
 }
 
 .page-section {
   width: 80%;
-  margin: auto;
+  margin: 0 auto;
   background-color: white;
   border-radius: 8px;
 }
