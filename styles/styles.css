@@ -1,13 +1,16 @@
 body {
-  background-color: whitesmoke;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .page-content {
+  background-color: rgb(226, 226, 226);
   text-align: center;
   width: 100%;
 }
 
 .page-section {
   width: 80%;
+  margin: auto;
   background-color: white;
+  border-radius: 8px;
 }
