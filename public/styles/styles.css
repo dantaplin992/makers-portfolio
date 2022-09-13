@@ -35,11 +35,31 @@ th {
   border-spacing: 0px;
 }
 
+.ksb-sidebar {
+  width: 20%;
+  height: 100%;
+  float: left;
+  /*background-color: blue;*/
+  background-color: rgb(245, 193, 62);
+  position: fixed;
+  box-shadow: 0px 0px 16px 7px rgba(193, 193, 193, 0.15);
+  border-radius: 8px;
+}
+
+.ksb-sidebar-spacing {
+  width: 20%;
+  float: left;
+  color: rgb(245, 245, 245);
+}
+
 .page-content {
+  /* background-color: rgb(252, 57, 57); */
   background-color: rgb(245, 245, 245);
   text-align: left;
-  width: 100%;
+  width: 80%;
+  float: left;
   padding-bottom: 1rem;
+  height: 100%;
 }
 
 .page-section {
@@ -55,7 +75,6 @@ th {
 .section-title {
   width: 80%;
   margin: 0 auto;
-  border-bottom: 1px rgb(114, 114, 114);
 }
 
 .subtitle {
@@ -88,12 +107,15 @@ th {
   margin-bottom: 0.3rem;
 }
 
-.ksb-rollover-k5 {
-  font-weight: bold;
+.normal-text {
+  font-weight: normal;
+  background-color: white;
   transition: 0.5s;
 }
 
-.ksb-rollover-k5:hover {
-  background-color: rgb(245, 193, 62);
+.highlighted-text {
+  transition: 0.5s;
+  background-image: url(../images/orange.png);
   font-size: 15;
+  opacity: 0;
 }

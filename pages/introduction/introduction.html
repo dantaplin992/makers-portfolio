@@ -1,7 +1,15 @@
 <head>
   <link rel="stylesheet" href="../../public/styles/styles.css">
+  <script src="../../public/scripts/highlight-text.js"></script>
 </head>
 <body>
+  <div class="ksb-sidebar">
+    <div class="section-title">
+      <h2>KSBs In This Section</h2>
+    </div>
+    <input type="checkbox" onclick="highlightText('name-text')">Name
+  </div>
+  <div class="ksb-sidebar-spacing">a</div>
   <div class="page-content">
     <div class="page-title">
       <h1>Introduction</h1>
@@ -12,7 +20,7 @@
       </div>
       <div class="section-content">
         <p>
-          My name is Daniel Taplin, and I have been working at Holiday Extras for around 5 and a half years, starting in the Pay-per-Click advertising team in 2016, until early 2022 when I started the Software Developer Apprenticeship with Makers.
+          My name is <span class="name-text"><span class="normal-text">Daniel Taplin,</span></span> and I have been working at Holiday Extras for around 5 and a half years, starting in the Pay-per-Click advertising team in 2016, until early 2022 when I started the Software Developer Apprenticeship with Makers.
         </p>
         <p>
           In my previous role, I worked primarily with the Google Ads online advertising platform, with reporting done in other G-Suite apps such as Google Sheets. During this time, I looked for a way to make some tedious, everyday tasks, such as building weekly reports, more automated, as they took a lot of time and involved lots of repetition. I soon discovered Google Apps Script, an Integrated Development Environment (IDE) built into G-Suite that allows Javascript code to be written to integrate G-Suite apps such as Google Ads, Sheets, Drive and Gmail with each other. I was immediately inspired by the possibilities that this opened up for me, as well as the creative problem-solving nature of coding itself, and I had soon taught myself some Javascript for work, as well as Python and C# for hobby projects outside of work, such as making games.
